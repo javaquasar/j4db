@@ -1,0 +1,20 @@
+plugins {
+    id 'java-library'
+    id 'maven-publish'
+}
+
+dependencies {
+    api project(':j4db-core')
+    // implementation libs.spring.boot4.starter
+    // implementation libs.spring.boot4.autoconfigure
+
+    annotationProcessor 'org.springframework.boot:spring-boot-configuration-processor'
+}
+
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            from components.java
+        }
+    }
+}

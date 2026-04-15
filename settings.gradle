@@ -1,0 +1,6 @@
+rootProject.name = 'j4db'
+
+include 'j4db-core'
+include 'j4db-generator'
+include 'j4db-spring-boot3-starter'
+include 'j4db-spring-boot4-starter'

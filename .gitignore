@@ -1,0 +1,27 @@
+# Gradle
+.gradle
+build/
+out/
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jar files
+*.jar
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+
+# Maven/Gradle wrapper (if you don't want to commit it)
+# gradle/wrapper/gradle-wrapper.jar
