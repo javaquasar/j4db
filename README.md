@@ -24,12 +24,12 @@ It automatically generates **column enums** from your database tables and provid
 
 ## 📦 Project Modules
 
-| Module                         | Artifact ID                          | Status      | Description |
-|--------------------------------|--------------------------------------|-------------|-----------|
-| **j4db-core**                  | `j4db-core`                          | ✅ Stable   | Core runtime library |
+| Module                         | Artifact ID                          | Status        | Description |
+|--------------------------------|--------------------------------------|---------------|-----------|
+| **j4db-core**                  | `j4db-core`                          | ✅ Stable      | Core runtime library |
 | **j4db-generator**             | `j4db-generator`                     | 🔄 In progress | Code generation engine |
-| **j4db-spring-boot3-starter**  | `j4db-spring-boot3-starter`          | 🔄 In progress | **Main** starter for Spring Boot 3.x |
-| **j4db-spring-boot4-starter**  | `j4db-spring-boot4-starter`          | 🔄 Planned  | Future starter for Spring Boot 4.x |
+| **j4db-spring-boot3-starter**  | `j4db-spring-boot3-starter`          | ✅ Ready       | **Main** starter for Spring Boot 3.x |
+| **j4db-spring-boot4-starter**  | `j4db-spring-boot4-starter`          | 🔄 Planned    | Future starter for Spring Boot 4.x |
 
 ## 🚀 Quick Start
 

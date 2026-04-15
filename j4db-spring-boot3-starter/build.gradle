@@ -6,15 +6,17 @@ plugins {
 dependencies {
     api project(':j4db-core')
 
+    // Spring Boot 3
     implementation libs.spring.boot3.starter
     implementation libs.spring.boot3.autoconfigure
-
     annotationProcessor libs.spring.boot3.configuration.processor
 
     // Test dependencies
-    testImplementation 'org.springframework.boot:spring-boot-starter-test'
-    testImplementation 'org.junit.jupiter:junit-jupiter'
-    testImplementation 'org.assertj:assertj-core'
+    testImplementation libs.spring.boot3.starter.test
+    testImplementation libs.assertj.core
+    testImplementation libs.junit.jupiter
+    testImplementation 'com.h2database:h2:2.3.232'
+    testImplementation project(':j4db-core')
 }
 
 publishing {
